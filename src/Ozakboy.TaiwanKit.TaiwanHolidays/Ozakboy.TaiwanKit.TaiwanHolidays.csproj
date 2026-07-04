@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</TargetFrameworks>
+    <RootNamespace>Ozakboy.TaiwanKit.TaiwanHolidays</RootNamespace>
+    <AssemblyName>Ozakboy.TaiwanKit.TaiwanHolidays</AssemblyName>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <Deterministic>true</Deterministic>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Ozakboy.TaiwanKit.TaiwanHolidays</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Title>Ozakboy.TaiwanKit.TaiwanHolidays</Title>
+    <Authors>ozakboy</Authors>
+    <Description>台灣國定假日/補班日查詢套件（2017-2027，資料內嵌，離線可用）- Taiwan national holidays and make-up workday queries for .NET. Official DGPA calendar data (2017-2027) embedded, works offline, zero dependencies.</Description>
+    <PackageTags>taiwan;holidays;calendar;workday;national-holidays;taiwankit</PackageTags>
+    <PackageProjectUrl>https://github.com/ozakboy/Ozakboy.TaiwanKit.TaiwanHolidays</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ozakboy/Ozakboy.TaiwanKit.TaiwanHolidays</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReleaseNotes>Initial release: Taiwan government office calendar queries for 2017-2027 (official DGPA data embedded) — holiday/workday checks incl. make-up workdays, day info with holiday names, next/previous workday, workday counting and consecutive holiday periods. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.TaiwanHolidays/blob/main/docs/en/changelog.md</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
