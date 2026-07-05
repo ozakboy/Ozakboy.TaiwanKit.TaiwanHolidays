@@ -5,14 +5,14 @@ export default defineNuxtConfig({
 
   // Nuxt site config (used by sitemap module to prepend absolute URL)
   site: {
-    url: 'https://ozakboy.github.io',
+    url: 'https://holidays.ozakboy.life',
     name: 'Ozakboy.TaiwanKit.TaiwanHolidays',
     description:
       'Taiwan national holidays and make-up workday queries for .NET. Official DGPA calendar data (2017-2027) embedded, works offline, zero dependencies.',
   },
 
   app: {
-    baseURL: '/Ozakboy.TaiwanKit.TaiwanHolidays/',
+    baseURL: '/',
     head: {
       title: 'TaiwanHolidays — 台灣國定假日/補班日查詢 .NET 套件',
       htmlAttrs: { lang: 'zh-TW' },
@@ -47,8 +47,8 @@ export default defineNuxtConfig({
           content:
             'Official Taiwan government calendar (2017-2027) embedded. Make-up Saturdays handled correctly. Next-workday, workday counting and holiday-period helpers.',
         },
-        { property: 'og:url', content: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.TaiwanHolidays/' },
-        { property: 'og:image', content: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.TaiwanHolidays/logo.png' },
+        { property: 'og:url', content: 'https://holidays.ozakboy.life/' },
+        { property: 'og:image', content: 'https://holidays.ozakboy.life/logo.png' },
         { property: 'og:image:alt', content: 'Ozakboy.TaiwanKit logo' },
         { property: 'og:locale', content: 'zh_TW' },
         { property: 'og:locale:alternate', content: 'en_US' },
@@ -61,12 +61,12 @@ export default defineNuxtConfig({
           content:
             'Official Taiwan calendar 2017-2027 embedded, offline, zero dependencies. Make-up workdays handled correctly.',
         },
-        { name: 'twitter:image', content: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.TaiwanHolidays/logo.png' },
+        { name: 'twitter:image', content: 'https://holidays.ozakboy.life/logo.png' },
       ],
       link: [
-        { rel: 'icon', type: 'image/png', href: '/Ozakboy.TaiwanKit.TaiwanHolidays/logo.png' },
-        { rel: 'apple-touch-icon', href: '/Ozakboy.TaiwanKit.TaiwanHolidays/logo.png' },
-        { rel: 'canonical', href: 'https://ozakboy.github.io/Ozakboy.TaiwanKit.TaiwanHolidays/' },
+        { rel: 'icon', type: 'image/png', href: '/logo.png' },
+        { rel: 'apple-touch-icon', href: '/logo.png' },
+        { rel: 'canonical', href: 'https://holidays.ozakboy.life/' },
       ],
     },
   },
@@ -91,7 +91,7 @@ export default defineNuxtConfig({
   },
 
   i18n: {
-    baseUrl: 'https://ozakboy.github.io',
+    baseUrl: 'https://holidays.ozakboy.life',
     locales: [
       { code: 'zh-TW', name: '繁體中文', file: 'zh-TW.json' },
       { code: 'en', name: 'English', file: 'en.json' },
