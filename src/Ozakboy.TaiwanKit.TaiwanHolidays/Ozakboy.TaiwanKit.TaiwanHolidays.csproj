@@ -25,6 +25,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageIcon>logo.png</PackageIcon>
     <PackageReleaseNotes>Initial release: Taiwan government office calendar queries for 2017-2027 (official DGPA data embedded) — holiday/workday checks incl. make-up workdays, day info with holiday names, next/previous workday, workday counting and consecutive holiday periods. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.TaiwanHolidays/blob/main/docs/en/changelog.md</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeSymbols>true</IncludeSymbols>
@@ -40,6 +41,7 @@
   <ItemGroup>
     <None Include="..\..\README.md" Pack="true" PackagePath="\" />
     <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\..\logo.png" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>

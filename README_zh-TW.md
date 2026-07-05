@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ozakboy/Ozakboy.TaiwanKit.TaiwanHolidays/main/logo.png" width="128" alt="Ozakboy.TaiwanKit logo" />
+</p>
+
 # Ozakboy.TaiwanKit.TaiwanHolidays
 
 [English](https://github.com/ozakboy/Ozakboy.TaiwanKit.TaiwanHolidays/blob/main/README.md)
