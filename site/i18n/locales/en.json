@@ -1,0 +1,76 @@
+{
+  "header": {
+    "tagline": "Taiwan holidays for .NET"
+  },
+  "nav": {
+    "docs": "Docs",
+    "changelog": "Changelog",
+    "sponsor": "Sponsor"
+  },
+  "home": {
+    "hero": {
+      "title": "TaiwanHolidays",
+      "subtitle": "Taiwan national holiday / make-up workday queries — official calendar 2017-2027 embedded, make-up Saturdays handled correctly, scheduling helpers included. Offline, zero dependencies.",
+      "install": "Install Now",
+      "github": "View on GitHub"
+    },
+    "features": {
+      "title": "Core Features",
+      "items": {
+        "official": {
+          "title": "Official Data Embedded",
+          "desc": "DGPA government calendar 2017-2027 embedded, incl. the 2025 statutory holiday reform; works offline, yearly minor updates."
+        },
+        "makeup": {
+          "title": "Make-up Workdays Done Right",
+          "desc": "Six-way day classification; make-up Saturdays correctly count as workdays — the key difference from weekend-only checks."
+        },
+        "scheduling": {
+          "title": "Scheduling Helpers",
+          "desc": "Next/previous workday and inclusive workday counting — ready for scheduling and attendance systems."
+        },
+        "periods": {
+          "title": "Holiday Periods",
+          "desc": "Finds 3+ day consecutive breaks (e.g. the 9-day Lunar New Year), cross-year periods untruncated."
+        }
+      }
+    },
+    "quickstart": {
+      "title": "Quick Start",
+      "step1": "1. Install the package",
+      "step2": "2. Query immediately",
+      "step3": "3. Scheduling helpers"
+    }
+  },
+  "docs": {
+    "title": "Documentation",
+    "intro": "Pick a topic below to get started with TaiwanHolidays.",
+    "sections": {
+      "gettingStarted": "Getting Started",
+      "api": "API Reference"
+    },
+    "wip": "Page content coming soon — see README.md in the GitHub repo."
+  },
+  "changelog": {
+    "title": "Changelog",
+    "intro": "See docs/en/changelog.md in the GitHub repo for the full history."
+  },
+  "sponsor": {
+    "title": "Sponsor",
+    "intro": "If TaiwanHolidays helps you, consider sponsoring the developer via cryptocurrency or Binance Pay.",
+    "crypto": {
+      "title": "Cryptocurrency"
+    },
+    "usdt": {
+      "title": "USDT (BEP20)",
+      "warningTitle": "BSC (Binance Smart Chain / BEP20) network only",
+      "warningBody": "Sending to other networks (ERC20 / TRC20 / Solana, etc.) will result in permanent loss of funds."
+    },
+    "binancePay": {
+      "title": "Binance Pay",
+      "desc": "Scan to sponsor via Binance Pay"
+    },
+    "copy": "Copy",
+    "copied": "Copied ✓"
+  }
+}
