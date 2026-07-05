@@ -15,7 +15,7 @@
 
   <PropertyGroup>
     <PackageId>Ozakboy.TaiwanKit.TaiwanHolidays</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Title>Ozakboy.TaiwanKit.TaiwanHolidays</Title>
     <Authors>ozakboy</Authors>
     <Description>台灣國定假日/補班日查詢套件（2017-2027，資料內嵌，離線可用）- Taiwan national holidays and make-up workday queries for .NET. Official DGPA calendar data (2017-2027) embedded, works offline, zero dependencies.</Description>
@@ -26,7 +26,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>logo.png</PackageIcon>
-    <PackageReleaseNotes>Initial release: Taiwan government office calendar queries for 2017-2027 (official DGPA data embedded) — holiday/workday checks incl. make-up workdays, day info with holiday names, next/previous workday, workday counting and consecutive holiday periods. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.TaiwanHolidays/blob/main/docs/en/changelog.md</PackageReleaseNotes>
+    <PackageReleaseNotes>Added the Ozakboy.TaiwanKit series logo as the NuGet package icon and README header. Changelog: https://github.com/ozakboy/Ozakboy.TaiwanKit.TaiwanHolidays/blob/main/docs/en/changelog.md</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
