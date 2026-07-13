@@ -40,6 +40,9 @@ function copyDir(srcDir, dstDir) {
     const srcPath = path.join(srcDir, entry.name)
     const dstPath = path.join(dstDir, entry.name)
     if (entry.isDirectory()) {
+      // docs/archive/ 是 AI 文檔歸檔(gitignored),不同步進 site。
+      // docs/archive/ holds gitignored AI-doc archives; never sync it into the site.
+      if (entry.name === 'archive') continue
       copyDir(srcPath, dstPath)
     } else if (entry.isFile()) {
       fs.copyFileSync(srcPath, dstPath)
